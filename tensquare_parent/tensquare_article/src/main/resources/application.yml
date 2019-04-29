@@ -1,0 +1,16 @@
+server:
+  port: 9004
+spring:
+  application:
+    name: tensquare-article
+  datasource:
+    driverClassName: com.mysql.jdbc.Driver
+    url: jdbc:mysql://127.0.0.1:3306/tensquare_article?serverTimezone=UTC&characterEncoding=utf-8
+    username: root
+    password: root
+  jpa:
+    show-sql: true
+    database: mysql
+#  redis:
+#    host: 10.132.52.125
+#    port: 6379

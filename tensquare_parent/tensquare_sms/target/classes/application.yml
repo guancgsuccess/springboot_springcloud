@@ -1,0 +1,14 @@
+server:
+  port: 9010
+spring:
+  application:
+    name: tensquare-sms
+  redis:
+    host: 192.168.1.42
+    port: 6379
+  rabbitmq:
+    host: 192.168.1.42
+#  data:
+#    mongodb:
+#      database: spitdb
+#      host: 10.132.52.125

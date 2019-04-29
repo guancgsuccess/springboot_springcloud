@@ -1,0 +1,20 @@
+server:
+  port: 9006
+spring:
+  application:
+    name: tensquare-spit
+#  datasource:
+#    driverClassName: com.mysql.jdbc.Driver
+#    url: jdbc:mysql://10.132.52.125:3306/tensquare_article?serverTimezone=UTC&characterEncoding=utf-8
+#    username: root
+#    password: root
+#  jpa:
+#    show-sql: true
+#    database: mysql
+  redis:
+    host: 10.132.52.125
+    port: 6379
+  data:
+    mongodb:
+      database: spitdb
+      host: 10.132.52.125

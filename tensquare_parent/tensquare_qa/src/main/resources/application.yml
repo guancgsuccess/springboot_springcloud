@@ -1,0 +1,28 @@
+server:
+  port: 9003
+spring:
+  application:
+    name: tensquare-qa
+  datasource:
+    driverClassName: com.mysql.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/tensquare_qa?serverTimezone=UTC&characterEncoding=utf-8
+    username: root
+    password: root
+  jpa:
+    show-sql: true
+    database: mysql
+jwt:
+  config:
+    key: aistar
+    ttl: 3600000
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://127.0.0.1:6868/eureka/
+  instance:
+    prefer-ip-address: true
+
+feign:
+  hystrix:
+    enabled: true

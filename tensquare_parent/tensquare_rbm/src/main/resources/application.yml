@@ -1,0 +1,7 @@
+server:
+  port: 8010
+spring:
+  application:
+    name: tensquare-rbm
+  rabbitmq:
+    host: 192.168.1.42

@@ -1,0 +1,13 @@
+server:
+  port: 9002
+spring:
+  application:
+    name: tensquare-recruit
+  datasource:
+    driverClassName: com.mysql.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/tensquare_recruit?serverTimezone=UTC&characterEncoding=utf-8
+    username: root
+    password: root
+  jpa:
+    show-sql: true
+    database: mysql
